@@ -1,0 +1,28 @@
+{
+  "name": "vite-express-hmr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server/app.js -w server",
+    "build": "vite build",
+    "start": "NODE_ENV=production node server/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.0.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "picocolors": "^1.0.0",
+    "svelte": "^3.55.1",
+    "vite": "^4.1.0"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "node-fetch": "^2.0.0"
+  }
+}
